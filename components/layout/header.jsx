@@ -4,7 +4,7 @@ import { Header } from "antd/lib/layout/layout";
 function PageHeader() {
   return (
     <Header>
-      <div className="header-logo" />
+      <div className="header-logo">Yosa Rama</div>
       <Menu
         mode="horizontal"
         defaultSelectedKeys={["1"]}

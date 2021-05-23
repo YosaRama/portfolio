@@ -1,11 +1,22 @@
 @import "~antd/dist/antd.dark.css";
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins&family=Source+Sans+Pro&display=swap");
+
+$font_title: "Poppins", sans-serif;
+$font_text: "Source Sans Pro", sans-serif;
+$font_logo: "Pattaya", sans-serif;
+
+h1 {
+  font-family: $font_title;
+}
+
+p {
+  font-family: $font_text;
+}
 
 .header-logo {
   float: left;
-  width: 120px;
-  height: 31px;
-  margin: 16px 24px 16px 0;
-  background: rgba(255, 255, 255, 0.2);
+  font-family: $font_logo;
+  font-size: 20px;
 }
 
 .header-menu {

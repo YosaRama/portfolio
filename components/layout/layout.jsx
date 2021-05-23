@@ -7,7 +7,7 @@ function PageLayout(props) {
   return (
     <Layout>
       <Header />
-      <Content style={{ padding: "50px 50px" }}>{props.children}</Content>
+      <Content>{props.children}</Content>
       <Footer>Footer</Footer>
     </Layout>
   );
