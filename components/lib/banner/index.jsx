@@ -1,7 +1,7 @@
 import { Col, Row } from "antd";
 import Image from "next/image";
 import s from "./banner.module.scss";
-import Button from "../button/button";
+import Button from "../button";
 
 function Banner(props) {
   const { name, description, btnText } = props;

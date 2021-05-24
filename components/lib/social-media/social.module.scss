@@ -1,0 +1,16 @@
+.socialSection {
+  justify-content: flex-end;
+  overflow: hidden;
+  .socialContainer {
+    padding: 0 10px 10px;
+    overflow: hidden;
+  }
+  img {
+    width: 20px;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      transform: scale(1.2);
+      cursor: pointer;
+    }
+  }
+}

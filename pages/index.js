@@ -1,4 +1,4 @@
-import Banner from "../components/lib/banner/banner";
+import Banner from "../components/lib/banner";
 
 function Homepage() {
   return (

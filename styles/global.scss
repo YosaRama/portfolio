@@ -5,12 +5,21 @@ $font_title: "Poppins", sans-serif;
 $font_text: "Source Sans Pro", sans-serif;
 $font_logo: "Pattaya", sans-serif;
 
-h1 {
+$color_red: #ff0942;
+
+h1,
+li {
   font-family: $font_title;
 }
 
 p {
   font-family: $font_text;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
 }
 
 .header-logo {
@@ -21,4 +30,39 @@ p {
 
 .header-menu {
   float: right;
+}
+
+.ant-menu-item {
+  background: transparent;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 10px;
+    left: 15%;
+    background-color: $color_red;
+    transition: width 0.3s ease;
+  }
+  &.ant-menu-item-selected {
+    background-color: transparent !important;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 70%;
+      height: 2px;
+      bottom: 10px;
+      left: 15%;
+      background-color: $color_red;
+    }
+  }
+  &.ant-menu-item-active {
+    background-color: transparent !important;
+    transition: all 0.3s ease-out;
+  }
+  &:hover {
+    &::after {
+      width: 70%;
+    }
+  }
 }
