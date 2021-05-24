@@ -1,4 +1,21 @@
 .section {
   background-color: #424242;
   padding: 50px 50px 0;
+
+  .text {
+    margin-top: auto;
+    margin-bottom: 15%;
+    h1 {
+      font-size: 52px;
+      text-transform: capitalize;
+      font-weight: 800;
+      margin: 0;
+    }
+    p {
+      font-size: 18px;
+      text-transform: capitalize;
+      width: 300px;
+      margin: 0;
+    }
+  }
 }

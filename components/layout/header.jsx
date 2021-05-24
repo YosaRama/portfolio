@@ -11,10 +11,11 @@ function PageHeader() {
         theme="dark"
         className="header-menu"
       >
-        <Menu.Item key="1">About Me</Menu.Item>
-        <Menu.Item key="2">Skill</Menu.Item>
+        <Menu.Item key="1">Homepage</Menu.Item>
+        <Menu.Item key="2">About Me</Menu.Item>
+        <Menu.Item key="3">Skill</Menu.Item>
         <Menu.Item key="4">Portfolio</Menu.Item>
-        <Menu.Item key="3">Work Experience</Menu.Item>
+        <Menu.Item key="5">Work Experience</Menu.Item>
       </Menu>
     </Header>
   );
