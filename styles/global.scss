@@ -34,6 +34,7 @@ body {
 
 .ant-menu-item {
   background: transparent;
+  text-transform: capitalize;
   &::after {
     content: "";
     position: absolute;
@@ -65,4 +66,9 @@ body {
       width: 70%;
     }
   }
+}
+
+.global-content-container {
+  background-color: #1f1e1e;
+  padding: 50px 50px 0;
 }
