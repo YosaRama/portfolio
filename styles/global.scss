@@ -26,6 +26,9 @@ body {
   float: left;
   font-family: $font_logo;
   font-size: 20px;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .header-menu {
@@ -71,4 +74,20 @@ body {
 .global-content-container {
   background-color: #1f1e1e;
   padding: 50px 50px 0;
+}
+
+.global-header-title {
+  text-align: center;
+  font-size: 32px;
+  width: 100%;
+  text-transform: uppercase;
+  font-family: $font_title;
+}
+
+.global-subtitle {
+  text-align: center;
+  font-size: 18px;
+  width: 40%;
+  margin: 0px auto 50px;
+  line-height: 28px;
 }

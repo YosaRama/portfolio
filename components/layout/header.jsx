@@ -5,7 +5,9 @@ import Link from "next/link";
 function PageHeader() {
   return (
     <Header>
-      <div className="header-logo">Yosa Rama</div>
+      <Link href="/">
+        <div className="header-logo">Yosa Rama</div>
+      </Link>
       <Menu
         mode="horizontal"
         defaultSelectedKeys={["1"]}
@@ -13,18 +15,15 @@ function PageHeader() {
         className="header-menu"
       >
         <Menu.Item key="1">
-          <Link href="/">Homepage</Link>
+          <Link href="/">About</Link>
         </Menu.Item>
         <Menu.Item key="2">
-          <Link href="/about">About Me</Link>
-        </Menu.Item>
-        <Menu.Item key="3">
           <Link href="/skill">Skill</Link>
         </Menu.Item>
-        <Menu.Item key="4">
+        <Menu.Item key="3">
           <Link href="/portfolio">Portfolio</Link>
         </Menu.Item>
-        <Menu.Item key="5">
+        <Menu.Item key="4">
           <Link href="/work-experience">Work Experience</Link>
         </Menu.Item>
       </Menu>

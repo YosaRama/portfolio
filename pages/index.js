@@ -5,7 +5,8 @@ function Homepage() {
     <Banner
       name="Hi I'm Yosa Rama"
       description="Websites Developer & Software Developer"
-      btnText="About me"
+      btnText="View Work"
+      link="/portfolio"
     />
   );
 }

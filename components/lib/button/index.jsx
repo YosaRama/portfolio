@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function CustomButton(props) {
   return (
-    <Link href="/">
+    <Link href={props.link}>
       <a>
         <button className={s.btn}>{props.children}</button>
       </a>
